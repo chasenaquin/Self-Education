@@ -2,7 +2,7 @@
 
 <h3>Languages</h3>
 <ul>
- <li>Python</li>
+ <li>Python (In-Progress)</li>
  <li>Go</li>
 </ul>
 
@@ -13,6 +13,8 @@
  <li>Software Engineering</li>
  <li>Agile & Scrum</li>
 </ul>
+
+<h3>Web Development</h3>
 
 kubernetes
 Docker
