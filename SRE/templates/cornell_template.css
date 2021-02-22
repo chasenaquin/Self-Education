@@ -1,0 +1,28 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* body {
+  background-color: black;
+} */
+
+ table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  padding: 10px;
+  background-color: #DCDCDC;
+}
+
+table {
+  background-color: white;
+  margin-top: 20px;
+}
+
+td {
+  padding-left: 10px;
+}
+
