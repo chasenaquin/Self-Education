@@ -32,3 +32,7 @@ mysql
 postgresql
 
 GCP
+
+
+Leadership Skills
+SRE Team Leadership & Management
