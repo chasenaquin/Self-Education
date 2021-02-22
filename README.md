@@ -1,7 +1,6 @@
 # Self-Education
 
 <h3>Languages</h3>
-<hr>
 <ul>
  <li>Python</li>
  <li>Go</li>
@@ -11,4 +10,9 @@
 <ul>
  <li>DevOps</li>
  <li>SRE</li>
+ <li>Software Engineering</li>
  <li>Agile & Scrum</li>
+
+kubernetes
+Docker
+Puppet
