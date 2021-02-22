@@ -1,0 +1,5 @@
+This is a template letter to generate with a python script.
+
+Your name: Katara
+Other peoples name in the recipients list:
+[other_names]

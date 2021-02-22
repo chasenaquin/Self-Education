@@ -1,0 +1,70 @@
+# We have been doing procedural Programming. (Not ideal)
+# Separate programs into modules.
+
+#Object Oriented Programs
+# Split a large task into small pieces.
+# Pieces are reusable
+# Be the manager.
+
+#How to use OOP
+# Model real life objects.
+# They "have" things. Attributes modeled with variables
+# They "do" things. Methods modeled by functions
+# An object is the way combination some piece of data with some functionality
+
+# Multiple objects generated from the same type. (Multiple versions)
+# Blueprint / Type is called a 'class'
+# The versions generated from class are called objects.
+
+#Constructing objects and accessing their attributes and methods
+
+#car = CarBlueprint()
+#object = class
+
+
+# import turtle
+#
+# timmy = turtle.Turtle()
+# print(timmy)
+#
+# my_screen = turtle.Screen()
+# print(my_screen.canvheight)
+# timmy.shape("turtle")
+# timmy.forward(100)
+#
+# my_screen.exitonclick()
+
+import prettytable
+table = prettytable.PrettyTable()
+table.add_column("Pokemon Name", ["Squirttle", "Picachu", "Charzard"])
+table.add_column("Type", ["Electric", "water", "fire"])
+print(table)
+table.align = "l"
+print(table)
+
+# Class is a blueprint.
+# Creating a class
+
+#Use Pascal Case to define classes
+class User:
+
+    #Constructor (Initialized) - allows up to specify what happens
+    # to set (vairbales, counters, switches, et) to their starting values at the begining of a program'
+    # Attributes - what it has
+    def __init__(self, user_id, username):
+        self.id = user_id
+        self.username = username
+        self.followers = 0
+        self.following = 0
+
+    # Methods - what it can do
+    def follow(self, user):
+        user.followers += 1
+        self.following += 1
+
+
+user_1 = User("001", "chase.naquin")
+user_2 = User("002", doris.naquin"")
+user_1.follow(user_2)
+
+print(user_1.username)

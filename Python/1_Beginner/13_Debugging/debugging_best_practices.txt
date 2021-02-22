@@ -1,0 +1,84 @@
+# 1. Describe Problem
+# 2. Reproduce
+# 3. Play Computer
+# 4. Fix the Errors
+# 5. Print is your friend
+# 6. Use a Debugger
+# 7. Take a break
+# 8. Ask a friend
+# 9. Run program often
+# 10. Search Stack Overflow
+
+
+
+#Practice Issues
+############DEBUGGING#####################
+
+# # Describe Problem
+# def my_function():
+#   for i in range(1, 20):
+#     if i == 20:
+#       print("You got it")
+# my_function()
+# # Range does not include the value of the last argument. (Upper bound)
+# # needs to be ffor i in range(1, 21):
+
+# # Reproduce the Bug
+# from random import randint
+# dice_imgs = ["❶", "❷", "❸", "❹", "❺", "❻"]
+# dice_num = randint(1, 6)
+# print(dice_imgs[dice_num])
+# # Base starting point for lists is 0. This will never select position 0 ("❶")
+# # position 6 will break index looking for the position after "❻"
+# # would have to change dice_num = randint(0,5)
+# # IndexError: list index out of range
+
+# # Play Computer
+# year = int(input("What's your year of birth? "))
+# if year > 1980 and year < 1994:
+#   print("You are a millenial.")
+# elif year > 1994:
+#   print("You are a Gen Z.")
+#  # Does not address the actual input of 1994. Needs to be
+#  # if year > 1980 and year <= 1994
+
+# # Fix the Errors
+# age = input("How old are you?")
+# if age > 18:
+# print(f"You can drive at age {age}.")
+# Needs to be an int. Cant operate on diff data types.
+# needs to be F-String :  print(f"You can drive at age {age}.")
+
+# #Print is Your Friend
+# pages = 0
+# word_per_page = 0
+# pages = int(input("Number of pages: "))
+# word_per_page == int(input("Number of words per page: "))
+# total_words = pages * word_per_page
+# print(total_words)
+# = and == are different.
+# Change: word_per_page = int(input("Number of words per page: "))
+
+# #Use a Debugger
+# def mutate(a_list):
+#   b_list = []
+#   for item in a_list:
+#     new_item = item * 2
+#   b_list.append(new_item)
+#   print(b_list)
+#
+# mutate([1,2,3,5,8,13])
+# # the line: b_list.append(new_item) is not in the for loop, thus overwritting the
+# # b_list to the last value of a_list *2. Indent this line into the for loop.
+
+
+# Using a Debugger
+# http://www.pythontutor.com/visualize.html#mode=edit
+# Thonny Editor
+
+
+# Final Tips
+# Take a break
+# Ask a Friend
+# Run Often
+# Stack Overflow
