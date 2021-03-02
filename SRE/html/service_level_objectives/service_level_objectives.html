@@ -8,7 +8,7 @@
 
 <body>
 
-<table style="width:100%">
+<table style="width:1000px">
   <tr>
     <th style="width:150px">PURPOSE</th>
     <td>Implementing Service Level Objectives, Indicators, and Agreements</td>
@@ -23,7 +23,7 @@
   </tr>
 </table>
 
-<table style="width:100%">
+<table style="width:1000px">
   <tr>
     <th style="width:150px">MATERIALS</th>
     <td><ul>
@@ -32,10 +32,11 @@
   </tr>
 </table>
 
-<table style="width:100%">
+<table style="width:1000px">
   <th>Table of Contents</tr>
   <td>
     <ol>
+      <li>Service Level Terminology [SLI]</li>
       <li>Service Level Indicators [SLI]</li>
       <li>Service Level Objectives [SLO]</li>
       <li>Service Level Agreements [SLA]</li>
@@ -46,7 +47,7 @@
     </ol>
   </td>
 
-<table style="width:100%">
+<table style="width:1000px">
   <tr>
     <th>CUE COLUMN</th>
     <th>NOTES</th>
@@ -60,10 +61,56 @@
         <li>These measurements describe the basic properties of metrics that matter, what values we want those metrics to have, and how we will react if we can’t provide the expected service. </li>
         <li>Metric Modeling, Metric Selection, and Metric Analysis</li>
       </ul>
+      <h3>Service Level Terminology</h3>
+      <ul>
+        <li>Indicators</li>
+        <ul>
+          <li>A carefully defined quantitative measure of some aspect of the level of service that is provided.</li>
+          <ul>
+            <li>Request latency (How long it takes to return a response to a request)</li>
+            <li>Error rate (a fraction of all requests received)</li>
+            <li>System Throughput (requests per second)</li>
+            <li>Availability (fraction of the time that the service is usable) (Yield)</li>
+            <li>Durability (The likelihood that data will be retained over a long period of time</li>
+          </ul>
+          <li>Ideally, the SLI directly measures a service level of interest, but sometimes only a proxy is available</li>
+        </ul>
+        <li>Objectives</li>
+        <ul>
+          <li>A target value or range of values for a service level that is measured by an SLI. </li>
+          <li>SLI <= Target or Lower Bound <= SLI <= Upper Bound.</li>
+          <li>Higher QPS often leads to larger latency, and its common for services to have a performance cliff beyond some load threshold. </li>
+          <li>Publishing the SLOs to users set correct expectations. </li>
+        </ul>
+        <li>Agreements</li>
+        <ul>
+          <li>An explicit or implicit contract with your users that includes the consequences of meeting (or missing) the SLO they contain.  (What happens if the SLO's are not met?)</li>
+          <li>Most recognizable when they are financial (rebate / penalty). </li>
+          <li>SRE not typically involved in making SLA's (closely tied to business and product decisions)</li>
+        </ul>
+      </ul>
+      <h3>The Global Chubby Planned Outage</h3>
+      <ul>
+        <li>A controlled outage synthesized by intentionally taking down the system resulted in flushing out unreasonable dependencies on the service. </li>
+      </ul>
+      <h3>Indicators in Practice</h3>
+        <ul>
+          <li>What do you and your users care about?</li>
+          <li>Chose a handful of representative indicators that show system health.</li>
+          <li>Services tend to fall into a few braod categories in terms of the SLIs they find relevant:</li>
+          <ul>
+            <li>User-facing systems</li>
+            <ul>
+              <li>Availability (Could we respond to the request)</li>
+              <li>Latency (How long did it take to respond)</li>
+              <li>Throughput (How many requests could be handled)</li>
+            </ul>
+          </ul>
+        </ul>
     </td>
 </table>
 
-<table style="width:100%">
+<table style="width:1000px">
   <tr>
     <th>SUMMARY</th>
   </tr>
