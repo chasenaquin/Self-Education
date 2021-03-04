@@ -1,0 +1,23 @@
+Seciton 05 - Intermediate CSS
+41. What We Will Make - Stylised Personal Site
+42. What are Favicons
+43. HTML Divs
+44. The Box Model of Website Styling
+45. CSS Display Property
+46. Learn More About Web Design
+47. CSS Static and Relative Positioning
+48. Absolute Positioning
+49. The Dark Art of Centering Elements with CSS
+50. Font Styling in Our Personal Site
+51. Learn More About Typography
+52. Adding Content to Our Website
+53. CSS Sizing
+54. Font Properties Challenge 1 - Change the Font Color
+55. Font Properties Challenge 2 - Change the Font Weight
+56. Font Properties Challenge 3 - Change the Line Height
+57. CSS Font Property Challenge Solutions
+58. CSS Float and Clear
+59. CSS Challenge
+60. Stylized Personal Site Solution Walkthrough
+61. Get More Practice HTML and CSS
+62. Tip from Angela - Noting Easy is Worth Doing

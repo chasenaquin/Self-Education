@@ -1,0 +1,13 @@
+Section 04 - Introduction to CSS
+30. Introduction to CSS
+31. Inline CSS
+32. A Quick Note About The Next Lesson
+33. Internal CSS
+34. External CSS
+35. How to Debug CSS Code
+36. The Anatomy of CSS Syntax
+37. CSS Selectors
+38. Classes vs. IDs
+    Quiz 1: CSS Quiz
+39. Tips from Angela - Dealing with Distractions
+40. Join the Student Community

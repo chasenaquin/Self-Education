@@ -1,0 +1,12 @@
+Section 03 - Intermediate HTML
+20. HTML Tables
+21. Using HTML Tables for Layout
+22. HTML Tables Coding Challenge
+23. How to Type Emojis
+24. HTML Tables Solution Walkthrough
+25. HTML Forms
+26. Fors in Practice - Create a Contact Me Form
+    Coding Exercise 1: HTML Challenge
+27. Publish Your Website
+28. Tips from Angela - Habit Building with Calendar Trick
+29. Get Monthy Tips and Tools to Level Up as a Developer

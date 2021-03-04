@@ -1,0 +1,10 @@
+Section 2 - Introduction to HTML
+11. Introduction to HTML
+12. The Anatomy of an HTML Tag
+13. What We're Building - HTML Personal Site
+14. What is the HTML Boilerplate
+15. How to Structure Text in HTML
+16. HTML Lists
+17. HTML Image Elements
+18. HTML Links and Anchor Tags
+19. How to Ace this Course
