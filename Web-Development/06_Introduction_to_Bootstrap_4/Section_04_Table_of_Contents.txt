@@ -1,0 +1,24 @@
+63. What is Bootstrap?
+    a. Need to account for different viewports (Desktop, Mobile, Tablet, Laptop) "Responsive / Adaptive"
+64. Installing Bootstrap
+65. Web Design 101 - Wireframing
+    a. Workflow of a web designer (wireframe) (Low-Fidelity)
+      i. Look at other websites, get design patterns, layouts, color schemes, NdBTt13hSJ2lnve8agRGXTTyNaBYmCR
+      ii. Simple sketch wireframe (sneekpeekit.com)
+    b. Moch-Up (High-Fidelity) (Actual look of the website)
+      i. Create photo-realistic versions of websites
+      ii. Prototype it (Check out dribble.com)
+66. The Bootstrap Navigation Bar
+67. What We Will be Making: TinDog
+68. Download the Starting Files
+69. Setting Up Our New Project
+70. Bootstrap Grid Layout System
+71. Getting Montserrat Black and Other Font Weights
+72. Adding Grid Layouts to Our Website
+73. A Note About CSS Link Order
+74. Bootstrap Containers
+75. Bootstrap Buttons and Font Awesome
+76. Styling Our Websites Challenges and Solutions
+77. Bootstrap Challenge 101
+78. Solution to Bootstrap Challenge 101
+79. How to Deal with Procrastination

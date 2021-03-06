@@ -1,11 +1,56 @@
-html {
-  background-color: #66CCFF
-}
-
 body {
   margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: monospace;
+  /* clear: left;  the anti-float */
 }
 
 h1 {
-  margin: 0;
+  color: #66BFBF;
+  /* line-height: 2; */
+  font-size: 2rem; /* em, px, % */
+  width: 30%;
+  margin: 50px auto 10px;
+}
+
+.heading-images {
+  height: 100px;
+  width: 100px;
+  float: left; /* wrap the paragraph text around the image */
+  padding-right: 30px;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  background-color: #e4f9f5
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+
+}
+
+.cloud-1 {
+  position: absolute;
+  right: 100px;
+  top: 50px;
+}
+
+.cloud-2 {
+  position: absolute;
+}
+
+.skill-row {
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
 }
